@@ -1,0 +1,15 @@
+{
+  "C++ Boilerplate": {
+    "prefix": "b",
+    "body": [
+      "#include<iostream>",
+      "using namespace std;",
+      "",
+      "int main() {",
+      "    ${1:// your code here}",
+      "    return 0;",
+      "}"
+    ],
+    "description": "My standard C++ boilerplate"
+  }
+}
