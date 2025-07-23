@@ -26,7 +26,7 @@ int main() {
     a1.display();
     int e=*(input(&y));
     cout<<e<<endl;
-    cout<<*(hello());
+    cout<<*(hello());//here comes the dangling pointer issue as t is freed as soon as funcn ends
 
     return 0;
 }
