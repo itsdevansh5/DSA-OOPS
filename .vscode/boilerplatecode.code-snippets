@@ -2,8 +2,7 @@
   "C++ Boilerplate": {
     "prefix": "b",
     "body": [
-      "#include<iostream>",
-      "using namespace std;",
+      "#include<bits/stdc++.h>",
       "",
       "int main() {",
       "    ${1:// your code here}",
