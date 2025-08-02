@@ -6,7 +6,7 @@ int main() {
     for(int i=0;i<12;i++){
         hashmap[arr[i]]++;
     }
-    std::cout<<hashmap[4]<<" "<<hashmap[1]<<" "<<hashmap[7]<<std::endl;
+    std::cout<<hashmap[4]<<" "<<hashmap[1]<<std::endl;
     for(auto i:hashmap){
         std::cout<<i.first<<" "<<i.second<<std::endl;
     }
