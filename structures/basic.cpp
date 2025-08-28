@@ -1,8 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
-struct student{
-    private:
-    int roll;
+typedef struct student{
+    typedef int roll;
+    roll r;
     string name;
     public:
     void disp(){
@@ -13,11 +13,13 @@ struct student{
     }
 
 
-};
+}s;
 int main() {
-    student s1;
+    s s1;
     s1.set();
     s1.disp();
+    s s2={564,"aryan"};
+
 
     return 0;
 }
