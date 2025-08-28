@@ -2,10 +2,11 @@
 
 ## Concepts covered:
 
-- hashing
-- patterns
-- charactersandstrings
-- OOPS
 - searchingandsorting
+- OOPS
+- patterns
+- structures
+- charactersandstrings
 - stl
 - basics
+- hashing
