@@ -10,3 +10,4 @@
 - stl
 - basics
 - hashing
+- linkedlists
