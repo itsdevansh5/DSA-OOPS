@@ -9,9 +9,9 @@ struct LL{
     }
 
 };
-void modify(LL *head,int nd,int pos){
-    LL *temp=head;
-    for(int i=1;i<pos;i++){
+void modify(LL *&head,int nd,int pos){
+    LL *temp=head;                        //I have assumed pos is in range
+    for(int i=1;i<pos;i++){              //you can pass head bhere by value as well,as we are not changing head itself,values will be changed even then if pointers are passed by value
         temp=temp->next;
 
     }

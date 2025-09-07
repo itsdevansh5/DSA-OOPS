@@ -8,22 +8,18 @@ struct LL{
         this->next=nullptr;
     }
 };
-void reverse(LL *&head){
-    LL *curr=head;
-    LL *prev =nullptr;
-    LL *next;
-    while(curr!=nullptr){
+void reverse(LL *&head,LL * curr,LL *prev,LL *next){
+    if(curr==nullptr){
+        head=prev;
+        return;
+    }
+    else{
         next=curr->next;
         curr->next=prev;
         prev=curr;
         curr=next;
+        reverse(head,curr,prev,next);
     }
-    head=prev;
-    
-   
-
-
-    
 }
 void traverse(LL*head){
     LL*temp=head;
@@ -41,7 +37,7 @@ int main() {
     head->next=two;
     two->next=three;
     three->next=four;
-    reverse(head);
+    reverse(head,head,nullptr,nullptr);
     traverse(head);
     
     return 0;
