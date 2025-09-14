@@ -4,6 +4,7 @@
 
 - searchingandsorting
 - OOPS
+- stacks
 - patterns
 - structures
 - charactersandstrings
