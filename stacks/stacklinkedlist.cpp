@@ -57,5 +57,3 @@ int main() {
     
     return 0;
 } 
-
-//correct it by error handling and other issue;
