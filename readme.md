@@ -11,4 +11,5 @@
 - stl
 - basics
 - hashing
+- queues
 - linkedlists
