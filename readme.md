@@ -2,14 +2,14 @@
 
 ## Concepts covered:
 
-- searchingandsorting
-- OOPS
-- stacks
-- patterns
-- structures
 - charactersandstrings
+- patterns
+- stacks
 - stl
+- searchingandsorting
 - basics
-- hashing
 - queues
+- OOPS
+- hashing
+- structures
 - linkedlists
