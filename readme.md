@@ -11,6 +11,7 @@
 - queues
 - metahackercup25
 - OOPS
+- two_pointers
 - hashing
 - structures
 - linkedlists
