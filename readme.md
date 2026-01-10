@@ -10,8 +10,8 @@
 - basics
 - queues
 - metahackercup25
+- two_pointers&sliding_window
 - OOPS
-- two_pointers
 - hashing
 - structures
 - linkedlists
