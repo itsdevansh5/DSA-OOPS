@@ -1,0 +1,23 @@
+#include<bits/stdc++.h>
+using namespace std;
+int count(string a,int k){
+    int i=0;
+    unordered_map<char,int>mp;
+    int count=0;
+    for(int j=0;j<a.size();j++){
+         mp[a[j]]++;
+         while(mp.size()>k){
+            int r=a[i];
+            i++;
+            mp[r]--;
+            if(mp[r]==0) mp.erase(r);
+         }
+         count+=(j-i+1);
+
+    }
+    return count;
+}
+int main() {
+    
+    return 0;
+}
